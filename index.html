@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<title>Yashi's Zone</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet"
+href="https://fonts.googleapis.com/css?family=Lobster">
+<style>
+body,h1 {font-family: "Lobster", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+<body class="w3-dark-gray">
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="mailto:yashiikapalam20@gmail.com" class="w3-bar-item w3-button w3-text-white w3-hover-black">Mail me here</a>
+  </div>
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<div class="w3-opacity">
+<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom">
+  <h1><b>NUMNUM<3</b></h1>
+  <h2>o_O Born on 21-September O_o</h2>
+  <p><b>Love made by Shubham for Yashika.</b></p>
+  <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>
+</header>
+</div>
+
+<!-- Photo Grid -->
+<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+  <div class="w3-third">
+    <img src="a.jpg" style="width:100%">
+    <img src="b.jpg" style="width:100%">
+    <img src="ag.jpg" style="width:100%">
+    <img src="c.jpg" style="width:100%">
+    <img src="d.jpg" style="width:100%">
+    <img src="e.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="f.jpg" style="width:100%">
+    <img src="g.jpg" style="width:100%">
+    <img src="h.jpg" style="width:100%">
+    <img src="i.jpg" style="width:100%">
+    <img src="j.jpg" style="width:100%">
+    <img src="k.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="l.jpg" style="width:100%">
+    <img src="m.jpg" style="width:100%">
+    <img src="n.jpg" style="width:100%">
+    <img src="o.jpg" style="width:100%">
+    <img src="p.jpg" style="width:100%">
+    <img src="q.jpg" style="width:100%">
+  </div>
+</div>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-dark-gray w3-center w3-opacity w3-xxlarge" style="margin-top:28px"> 
+ <a href="https://www.facebook.com/yashika.dogra.35"> <i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <a href="https://www.instagram.com/_yas_hika_/?hl=en"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+
+</footer>
+ 
+<script>
+// Toggle grid padding
+function myFunction() {
+  var x = document.getElementById("myGrid");
+  if (x.className === "w3-row") {
+    x.className = "w3-row-padding";
+  } else { 
+    x.className = x.className.replace("w3-row-padding", "w3-row");
+  }
+}
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.width = "100%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
+  
